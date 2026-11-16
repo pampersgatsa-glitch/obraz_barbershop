@@ -35,7 +35,7 @@ button{font-family:var(--sans);-webkit-tap-highlight-color:transparent}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .ico{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .grain{position:relative}
-.grain::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:screen;background-image:url("img/grain.svg")}
+.grain::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:screen;background-image:url("grain.svg")}
 .grain>*{position:relative}
 
 /* header */
@@ -315,7 +315,7 @@ h2{font:600 clamp(34px,4.6vw,60px)/1.05 var(--serif);margin:0 0 24px;text-wrap:b
 
 
 /* palette v6: grey-white base, smudged graphite grounds, green only on menu/masters/sides */
-:root{--smudge:url("img/smudge.svg")}
+:root{--smudge:url("smudge.svg")}
 .hero{background:radial-gradient(ellipse 60% 50% at 50% 40%,rgba(255,255,255,.07),transparent 70%),radial-gradient(ellipse 40% 35% at 12% 85%,rgba(0,0,0,.35),transparent 70%),radial-gradient(ellipse 45% 40% at 90% 15%,rgba(0,0,0,.28),transparent 70%),var(--smudge) center/900px 700px,#25292b}
 .band,.facts,.pole{background:radial-gradient(ellipse 50% 120% at 20% 30%,rgba(255,255,255,.06),transparent 70%),radial-gradient(ellipse 40% 100% at 85% 80%,rgba(0,0,0,.3),transparent 70%),var(--smudge) 30% 40%/900px 700px,#24282a}
 .pole::after{box-shadow:0 0 0 8px #24282a}
@@ -351,7 +351,7 @@ box-shadow:0 0 0 3px #101213,0 0 0 9px #24282a,0 0 14px rgba(255,255,255,.12)}
 
 /* graphite cloud mural, like the wall in the shop */
 .hero .mural{position:absolute;right:0;left:0;bottom:0;width:auto;height:62%;pointer-events:none;z-index:0;opacity:.5;
-background:url("img/smoke.svg") center bottom/cover no-repeat;
+background:url("smoke.svg") center bottom/cover no-repeat;
 -webkit-mask-image:linear-gradient(0deg,#000 35%,transparent 100%);mask-image:linear-gradient(0deg,#000 35%,transparent 100%);mix-blend-mode:screen}
 @media(max-width:760px){.hero .mural{height:46%;opacity:.3}}
 
@@ -367,7 +367,7 @@ background:url("img/smoke.svg") center bottom/cover no-repeat;
 
 
 /* Zeus peeking from the side, on top of the smudged graphite */
-.hero .god{position:absolute;right:0;bottom:0;height:44%;aspect-ratio:720/956;max-width:46%;pointer-events:none;z-index:0;-webkit-mask-image:linear-gradient(270deg,transparent 0,#000 26%),linear-gradient(180deg,transparent 0,#000 24%);-webkit-mask-composite:source-in;mask-image:linear-gradient(270deg,transparent 0,#000 26%),linear-gradient(180deg,transparent 0,#000 24%);mask-composite:intersect;opacity:.34;mix-blend-mode:screen;background:url("img/zeus.jpg") right bottom/contain no-repeat}
+.hero .god{position:absolute;right:0;bottom:0;height:44%;aspect-ratio:720/956;max-width:46%;pointer-events:none;z-index:0;-webkit-mask-image:linear-gradient(270deg,transparent 0,#000 26%),linear-gradient(180deg,transparent 0,#000 24%);-webkit-mask-composite:source-in;mask-image:linear-gradient(270deg,transparent 0,#000 26%),linear-gradient(180deg,transparent 0,#000 24%);mask-composite:intersect;opacity:.34;mix-blend-mode:screen;background:url("zeus.jpg") right bottom/contain no-repeat}
 @media(max-width:760px){.hero .god{height:28%;right:0;opacity:.3}}
 
 /* reviews: first 3, the rest behind a button */
