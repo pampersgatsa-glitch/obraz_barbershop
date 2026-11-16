@@ -15,7 +15,7 @@
     reviews:   [],
     /* ОТЗЫВЫ С ВХОДОМ ЧЕРЕЗ GOOGLE (Firebase, бесплатно). Вставь сюда данные из Firebase Console:
        Project settings, Your apps, Web app, firebaseConfig. Пока поля пустые, форма отзывов в режиме показа. */
-    firebase:  {apiKey:'', authDomain:'', projectId:'', appId:''},
+    firebase:  {apiKey:'AIzaSyCPuKmjhdOPHwSDYTa8ANv2b7kMJTgsHUY', authDomain:'obraz-72c64.firebaseapp.com', projectId:'obraz-72c64', appId:'1:790694544534:web:1dde67a01e40cb911b6eb7'},
     masters:   {}                     // личные номера: {'Ярослав':{whatsapp:'+373...', phone:'+373...'}}
   };
 
